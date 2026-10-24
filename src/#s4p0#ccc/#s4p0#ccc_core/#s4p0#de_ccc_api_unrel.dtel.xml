@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_API_UNREL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Number of unreleased API dependencies</DDTEXT>
+    <REPTEXT>Unreleased APIs</REPTEXT>
+    <SCRTEXT_S>Unrel.API</SCRTEXT_S>
+    <SCRTEXT_M>Unreleased APIs</SCRTEXT_M>
+    <SCRTEXT_L>Unreleased API dependencies</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

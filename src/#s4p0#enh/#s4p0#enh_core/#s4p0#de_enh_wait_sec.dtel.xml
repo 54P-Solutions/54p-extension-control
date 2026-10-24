@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_ENH_WAIT_SEC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>INT2</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Debugging-Waitingtime in seconds (maximal)</DDTEXT>
+    <REPTEXT>Max Wait in seconds</REPTEXT>
+    <SCRTEXT_S>Max Wait</SCRTEXT_S>
+    <SCRTEXT_M>Max Wait in seconds</SCRTEXT_M>
+    <SCRTEXT_L>Max Wait in seconds</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Debugging-Wartezeit in Sekunden (maximal)</DDTEXT>
+     <REPTEXT>Max. Wartezeit in Sek.</REPTEXT>
+     <SCRTEXT_S>Max.Wart.</SCRTEXT_S>
+     <SCRTEXT_M>Max. Wartezeit Sek.</SCRTEXT_M>
+     <SCRTEXT_L>Max. Wartezeit in Sekunden</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

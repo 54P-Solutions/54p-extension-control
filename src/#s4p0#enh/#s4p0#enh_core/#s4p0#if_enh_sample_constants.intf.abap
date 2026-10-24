@@ -1,0 +1,11 @@
+interface /S4P0/IF_ENH_SAMPLE_CONSTANTS
+  public .
+
+
+  interfaces /S4P0/IF_ENH_CONSTANT_BASE .
+
+  constants GC_ENH_SAMPLE type /S4P0/DE_ENH_ID value '/S4P0/SAMPLE' ##NO_TEXT.
+  constants GC_SUB_ENH_SAMPLE type /S4P0/DE_ENH_SUB_ENH_ID value '/S4P0/SAMPLE_SUB' ##NO_TEXT.
+  constants GC_FEATURE_SAMPLE type /S4P0/DE_ENH_FEATURE_ID value '/S4P0/SAMPLE_FEAT' ##NO_TEXT.
+  constants GC_PARAMETER_SAMPLE type /S4P0/DE_ENH_PARAM_NAME value '/S4P0/SAMPLE_PARAM' ##NO_TEXT.
+endinterface.

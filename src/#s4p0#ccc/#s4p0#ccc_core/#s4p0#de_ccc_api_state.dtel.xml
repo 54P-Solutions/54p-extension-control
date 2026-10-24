@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_API_STATE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_API_STATE</DOMNAME>
+    <HEADLEN>09</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>09</SCRLEN2>
+    <SCRLEN3>09</SCRLEN3>
+    <DDTEXT>API state from the SAP classification catalog</DDTEXT>
+    <REPTEXT>API state</REPTEXT>
+    <SCRTEXT_S>API state</SCRTEXT_S>
+    <SCRTEXT_M>API state</SCRTEXT_M>
+    <SCRTEXT_L>API state</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

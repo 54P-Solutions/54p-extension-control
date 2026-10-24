@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+ <asx:values>
+  <DATA>
+   <NAME>54PCore</NAME>
+   <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
+   <STARTING_FOLDER>/src/</STARTING_FOLDER>
+   <FOLDER_LOGIC>FULL</FOLDER_LOGIC>
+   <VERSION_CONSTANT>/S4P0/IF_VERSION=&gt;CO_VERSION</VERSION_CONSTANT>
+   <ABAP_LANGUAGE_VERSION>standard</ABAP_LANGUAGE_VERSION>
+  </DATA>
+ </asx:values>
+</asx:abap>

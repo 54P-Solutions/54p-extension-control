@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_MOD_COUNT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Number of active modifications</DDTEXT>
+    <REPTEXT>Modifications</REPTEXT>
+    <SCRTEXT_S>Modific.</SCRTEXT_S>
+    <SCRTEXT_M>Modifications</SCRTEXT_M>
+    <SCRTEXT_L>Modification count</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

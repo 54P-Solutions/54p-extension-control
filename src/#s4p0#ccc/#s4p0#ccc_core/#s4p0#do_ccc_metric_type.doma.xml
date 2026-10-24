@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/S4P0/DO_CCC_METRIC_TYPE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000030</LENG>
+    <OUTPUTLEN>000030</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Metric Type (TODO: customizing table for metrics)</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CODE_LINES</DOMVALUE_L>
+     <DDTEXT>Code Lines count (LOC excluding comments/blanks)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CODE_STMNT</DOMVALUE_L>
+     <DDTEXT>Code Statements count (Executable ABAP statements)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>API_REL</DOMVALUE_L>
+     <DDTEXT>Released API used count (FM, Forms, Methods, ...)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>API_NOTREL</DOMVALUE_L>
+     <DDTEXT>Not released API used count (FM, Forms, Methods, ...)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MODIFICATN</DOMVALUE_L>
+     <DDTEXT>Modification count</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ATC_CCFIND</DOMVALUE_L>
+     <DDTEXT>ATC Clean Core Findings</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DEP_DENSTY</DOMVALUE_L>
+     <DDTEXT>Non-Released Dependency Density (unreleased / statements)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DEP_RADIUS</DOMVALUE_L>
+     <DDTEXT>Dependency Blast Radius (Custom objects use this SAP obj)</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

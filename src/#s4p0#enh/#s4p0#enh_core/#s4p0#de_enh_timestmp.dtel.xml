@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_ENH_TIMESTMP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>11</SCRLEN3>
+    <DDTEXT>BCDA Timestamp</DDTEXT>
+    <REPTEXT>TimeStamp</REPTEXT>
+    <SCRTEXT_S>TimeStamp</SCRTEXT_S>
+    <SCRTEXT_M>TimeStamp</SCRTEXT_M>
+    <SCRTEXT_L>TimeStamp</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000015</LENG>
+    <OUTPUTLEN>000019</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>BCDA Zeitstempel</DDTEXT>
+     <REPTEXT>Zeitstempel</REPTEXT>
+     <SCRTEXT_S>Zeitstmp.</SCRTEXT_S>
+     <SCRTEXT_M>Zeitstempel</SCRTEXT_M>
+     <SCRTEXT_L>Zeitstempel</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

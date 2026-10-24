@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_ENH_PARAM_COUNTER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DDTEXT>Enhancement Parameter Counter</DDTEXT>
+    <REPTEXT>Param Counter</REPTEXT>
+    <SCRTEXT_S>Count</SCRTEXT_S>
+    <SCRTEXT_M>Param Counter</SCRTEXT_M>
+    <SCRTEXT_L>Param Counter</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Enhancement-Parameter Zähler</DDTEXT>
+     <REPTEXT>Param.-Zähler</REPTEXT>
+     <SCRTEXT_S>Zähler</SCRTEXT_S>
+     <SCRTEXT_M>Param.-Zähler</SCRTEXT_M>
+     <SCRTEXT_L>Parameter-Zähler</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

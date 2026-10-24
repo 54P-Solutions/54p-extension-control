@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_COPY_DETECTED</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>A copy of an SAP standard object was detected</DDTEXT>
+    <REPTEXT>Clone detected</REPTEXT>
+    <SCRTEXT_S>Clone</SCRTEXT_S>
+    <SCRTEXT_M>Clone detected</SCRTEXT_M>
+    <SCRTEXT_L>Copied SAP standard detected</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

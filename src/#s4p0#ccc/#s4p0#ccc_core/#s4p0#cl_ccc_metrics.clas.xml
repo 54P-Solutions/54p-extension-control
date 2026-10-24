@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/S4P0/CL_CCC_METRICS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CCC Metrics</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_METRICS_DB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CCC Metrics Persistence Layer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_METRICS_PERSISTENCE_ON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ACTIVATE_METRICS_PERSISTENCE</CMPNAME>
+     <SCONAME>IO_METRICS_DB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CCC Metrics Persistence Layer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ANALYZE_SOURCE_CODE</CMPNAME>
+     <SCONAME>CS_METRICS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CCC Object Metrics</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_METRICS_PERSISTENCE_ACTIVE</CMPNAME>
+     <SCONAME>RV_ACTIVE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

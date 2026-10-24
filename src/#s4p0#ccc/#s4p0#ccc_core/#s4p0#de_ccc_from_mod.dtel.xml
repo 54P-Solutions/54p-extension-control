@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_FROM_MOD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>Object comes from the modification population</DDTEXT>
+    <REPTEXT>From modification</REPTEXT>
+    <SCRTEXT_S>Modif.</SCRTEXT_S>
+    <SCRTEXT_M>From modification</SCRTEXT_M>
+    <SCRTEXT_L>From modification population</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

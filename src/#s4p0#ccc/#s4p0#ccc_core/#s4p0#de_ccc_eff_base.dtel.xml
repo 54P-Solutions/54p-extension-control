@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_EFF_BASE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_MINUTES</DOMNAME>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>22</SCRLEN3>
+    <DDTEXT>Base effort share in minutes</DDTEXT>
+    <REPTEXT>Base effort</REPTEXT>
+    <SCRTEXT_S>Base</SCRTEXT_S>
+    <SCRTEXT_M>Base effort</SCRTEXT_M>
+    <SCRTEXT_L>Base effort in minutes</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

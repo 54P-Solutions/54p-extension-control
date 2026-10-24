@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_EFF_TMP_PEN</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_MINUTES</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>23</SCRLEN3>
+    <DDTEXT>Effort penalty for temporary objects</DDTEXT>
+    <REPTEXT>$TMP penalty</REPTEXT>
+    <SCRTEXT_S>Tmp pen.</SCRTEXT_S>
+    <SCRTEXT_M>$TMP penalty</SCRTEXT_M>
+    <SCRTEXT_L>$TMP penalty in minutes</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_EFF_COPY_PEN</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_MINUTES</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>24</SCRLEN3>
+    <DDTEXT>Effort penalty for copied SAP standard</DDTEXT>
+    <REPTEXT>Clone penalty</REPTEXT>
+    <SCRTEXT_S>Clone pen</SCRTEXT_S>
+    <SCRTEXT_M>Clone penalty</SCRTEXT_M>
+    <SCRTEXT_L>Clone penalty in minutes</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

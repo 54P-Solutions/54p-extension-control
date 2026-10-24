@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/S4P0/CL_ENH_UTILS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Basic ABAP Utils</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>/S4P0/ENH_CORE</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MAX_DEBUG_WAIT_SEC_DEFAULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Debugging-Waitingtime Default</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DEBUG_VIA_LOOP</CMPNAME>
+     <SCONAME>IV_DEBUG_AREA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Debug-Area</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

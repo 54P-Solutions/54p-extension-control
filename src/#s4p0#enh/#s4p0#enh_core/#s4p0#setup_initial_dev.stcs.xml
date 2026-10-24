@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_STCS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <STC_SCN_HDR>
+    <STC_SCN_HDR>
+     <SCENARIO_ID>/S4P0/SETUP_INITIAL_DEV</SCENARIO_ID>
+    </STC_SCN_HDR>
+   </STC_SCN_HDR>
+   <STC_SCN_TASKS>
+    <STC_SCN_TASKS>
+     <SCENARIO_ID>/S4P0/SETUP_INITIAL_DEV</SCENARIO_ID>
+     <SEQUENCE>00001</SEQUENCE>
+     <TASKTYPE>CLAS</TASKTYPE>
+     <TASKNAME>CL_STCT_CREATE_REQUEST_CUST</TASKNAME>
+    </STC_SCN_TASKS>
+   </STC_SCN_TASKS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

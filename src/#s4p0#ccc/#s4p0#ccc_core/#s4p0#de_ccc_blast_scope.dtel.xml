@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_BLAST_SCOPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_SCOPE</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Scope used to calculate the blast radius</DDTEXT>
+    <REPTEXT>Blast radius scope</REPTEXT>
+    <SCRTEXT_S>Scope</SCRTEXT_S>
+    <SCRTEXT_M>Blast radius scope</SCRTEXT_M>
+    <SCRTEXT_L>Blast radius scope</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

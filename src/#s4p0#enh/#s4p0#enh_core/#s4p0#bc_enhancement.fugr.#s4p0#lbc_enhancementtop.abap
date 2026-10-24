@@ -1,0 +1,3 @@
+FUNCTION-POOL /S4P0/BC_ENHANCEMENT.       "MESSAGE-ID ..
+
+* INCLUDE /S4P0/LBC_ENHANCEMENTD...        " Local class definition

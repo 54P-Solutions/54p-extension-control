@@ -1,0 +1,100 @@
+# .gitignore for the Extension Control abapGit repository
+#
+# Everything under src/ and .abapgit.xml is written by abapGit and must stay
+# versioned - never add patterns here that match *.abap or *.xml.
+
+# --- SAP artefacts that must never reach the repo --------------------------
+# Transport files (cofiles/data, e.g. K900123.DEV, R900123.DEV) - contain the SID
+[KR][0-9][0-9][0-9][0-9][0-9][0-9].*
+# abapGit offline exports and other archives - may contain unrelated packages
+*.zip
+*.sar
+*.car
+
+# --- Secrets and local configuration ---------------------------------------
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# --- Tool output -----------------------------------------------------------
+gitleaks-report*
+abaplint*.out
+*.out
+*.sarif
+*.log
+*.tmp
+tmp/
+
+# --- AI assistants and agents ----------------------------------------------
+# Claude / Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+**/CLAUDE.md
+.mcp.json
+# GitHub Copilot
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+.github/chatmodes/
+.copilot/
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+.specstory/
+# OpenAI Codex / generic agents
+.codex/
+AGENTS.md
+**/AGENTS.md
+# Gemini
+.gemini/
+GEMINI.md
+# Windsurf / Codeium
+.windsurf/
+.windsurfrules
+.codeium/
+# Cline / Roo / Kilo
+.cline/
+.clinerules
+.roo/
+.roomodes
+.kilocode/
+memory-bank/
+# Continue, Aider, Amazon Q, JetBrains Junie, Tabnine
+.continue/
+.aider*
+.amazonq/
+.junie/
+.tabnine*
+# Generic AI scratch folders
+.ai/
+.llm/
+
+# --- Eclipse / ADT ---------------------------------------------------------
+.project
+.settings/
+.metadata/
+.classpath
+
+# --- Other editors ---------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Operating systems -----------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+# Office lock files
+~$*
+
+# abapGit standalone program - a tool, not part of the product
+/zabapgit*

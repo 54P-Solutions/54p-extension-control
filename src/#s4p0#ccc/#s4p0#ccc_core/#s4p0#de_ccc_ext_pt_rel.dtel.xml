@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_EXT_PT_REL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Number of released extension points</DDTEXT>
+    <REPTEXT>Released ext. pts</REPTEXT>
+    <SCRTEXT_S>Rel. ext.</SCRTEXT_S>
+    <SCRTEXT_M>Released ext. pts</SCRTEXT_M>
+    <SCRTEXT_L>Released extension points</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

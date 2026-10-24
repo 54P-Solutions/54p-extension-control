@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_COPY_KPI</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Numeric KPI: object is a copy of SAP standard</DDTEXT>
+    <REPTEXT>Copied SAP std KPI</REPTEXT>
+    <SCRTEXT_S>Clone KPI</SCRTEXT_S>
+    <SCRTEXT_M>Copied SAP std KPI</SCRTEXT_M>
+    <SCRTEXT_L>Copied SAP standard (0/1)</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

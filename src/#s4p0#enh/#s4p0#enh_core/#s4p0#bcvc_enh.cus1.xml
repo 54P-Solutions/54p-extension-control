@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS1" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS1>
+    <ACTIVITY_HEADER>
+     <ACT_ID>/S4P0/BCVC_ENH</ACT_ID>
+     <ACT_TYPE>C</ACT_TYPE>
+    </ACTIVITY_HEADER>
+    <ACTIVITY_TITLE>
+     <CUS_ACTT>
+      <SPRAS>D</SPRAS>
+      <ACT_ID>/S4P0/BCVC_ENH</ACT_ID>
+      <TEXT>Enhancements verwalten (transportabel)</TEXT>
+     </CUS_ACTT>
+     <CUS_ACTT>
+      <SPRAS>E</SPRAS>
+      <ACT_ID>/S4P0/BCVC_ENH</ACT_ID>
+      <TEXT>Manage Enhancements (transportable customizing)</TEXT>
+     </CUS_ACTT>
+    </ACTIVITY_TITLE>
+    <OBJECTS>
+     <CUS_ACTOBJ>
+      <ACT_ID>/S4P0/BCVC_ENH</ACT_ID>
+      <OBJECTTYPE>C</OBJECTTYPE>
+      <OBJECTNAME>/S4P0/BCVC_ENH</OBJECTNAME>
+      <TCODE>SM34</TCODE>
+      <IMG_POS>01</IMG_POS>
+     </CUS_ACTOBJ>
+    </OBJECTS>
+   </CUS1>
+  </asx:values>
+ </asx:abap>
+</abapGit>

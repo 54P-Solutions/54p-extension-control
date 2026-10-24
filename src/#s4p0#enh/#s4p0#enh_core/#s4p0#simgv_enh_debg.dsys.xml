@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/S4P0/V_ENH_DEBG</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00029</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/S4P0/V_ENH_DEBG</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Setup Debugging points by timed loops. These are especiall helpful</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>during the development of external interfaces. As especially a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>synchroneous interfaces might not catch external breakpoints (IDOC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processing, qRFC, tRFC). The developer can include a timed debugging</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>point and when it is activated via this customizing, the system will</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enter a holding for a specified time.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The developer needs to add the debugging point via the following coding:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>/S4P0/CL_ENH_UTILS=&gt;DEBUG_VIA_LOOP( &apos;&lt;Name of debugging point&gt;&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The debugging point can be a freely given name with max. 30 characters.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This single call will create the customizing entry itself as inactive</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entry.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The standard setup is created automatically as inactive debugging point</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with 60 seconds holding time. A meaningful description might be added</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manually.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you want to activate the debugging point, you only have to set the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>checkbox &quot;DebugOn&quot; and adjust the ValidTo for a future timestamp. That</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is done to prevent a permanent holding loop that is in general bad for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>overall systemperformance. Additionally you can specify the user for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>what the debugging point should be active (optional).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When the interface is called, it will hold for the specified time</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(standard is 60 secs). In transaction SM50 or SM66 you will see the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>process counting the time up and there you can (authorization provided)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>debug into the process. Use for that in SM50 the menu point</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;Administration-&gt;Program-&gt;Debugging&quot;.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

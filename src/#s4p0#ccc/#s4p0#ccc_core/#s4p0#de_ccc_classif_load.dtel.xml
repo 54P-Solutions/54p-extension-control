@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_CLASSIF_LOAD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>SAP object classification catalog was loaded</DDTEXT>
+    <REPTEXT>Classific. loaded</REPTEXT>
+    <SCRTEXT_S>Classif.</SCRTEXT_S>
+    <SCRTEXT_M>Classific. loaded</SCRTEXT_M>
+    <SCRTEXT_L>Classification loaded</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

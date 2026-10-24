@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_ENH_FEATURE_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_ENH_FEATURE_ID</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT>Enhancement Feature ID</DDTEXT>
+    <REPTEXT>Enh. Feature ID</REPTEXT>
+    <SCRTEXT_S>EnhFeatID</SCRTEXT_S>
+    <SCRTEXT_M>Enh. Feature ID</SCRTEXT_M>
+    <SCRTEXT_L>Enh. Feature ID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/S4P0/SH_ENH_FEATURE</SHLPNAME>
+    <SHLPFIELD>FEATURE</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Enhancement Feature-ID</DDTEXT>
+     <REPTEXT>Enh. Feature-ID</REPTEXT>
+     <SCRTEXT_S>EnhFeatID</SCRTEXT_S>
+     <SCRTEXT_M>Enh. Feature-ID</SCRTEXT_M>
+     <SCRTEXT_L>Enh. Feature-ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

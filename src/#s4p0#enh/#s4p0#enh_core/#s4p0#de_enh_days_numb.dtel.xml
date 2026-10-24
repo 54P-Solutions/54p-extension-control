@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_ENH_DAYS_NUMB</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Number of Days</DDTEXT>
+    <REPTEXT>No of Days</REPTEXT>
+    <SCRTEXT_S>No of Days</SCRTEXT_S>
+    <SCRTEXT_M>No of Days</SCRTEXT_M>
+    <SCRTEXT_L>Number of Days</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>INT4</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000011</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Anzahl der Tage</DDTEXT>
+     <REPTEXT>AnzahlTage</REPTEXT>
+     <SCRTEXT_S>AnzahlTage</SCRTEXT_S>
+     <SCRTEXT_M>AnzahlTage</SCRTEXT_M>
+     <SCRTEXT_L>Anzahl der Tage</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

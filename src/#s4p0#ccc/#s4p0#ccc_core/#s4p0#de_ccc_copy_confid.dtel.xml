@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_COPY_CONFID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_CONFIDENCE</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>26</SCRLEN3>
+    <DDTEXT>Confidence of the copied SAP standard detection</DDTEXT>
+    <REPTEXT>Clone confidence</REPTEXT>
+    <SCRTEXT_S>Clone cnf</SCRTEXT_S>
+    <SCRTEXT_M>Clone confidence</SCRTEXT_M>
+    <SCRTEXT_L>Clone detection confidence</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

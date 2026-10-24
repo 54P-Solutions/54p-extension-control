@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an improvement or a new function
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Which problem do you want to solve? Describe the situation in your project.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: How could Extension Control solve it?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Workarounds or other solutions you considered.

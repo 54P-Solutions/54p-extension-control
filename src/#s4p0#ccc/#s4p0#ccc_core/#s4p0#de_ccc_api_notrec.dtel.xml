@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_API_NOTREC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>Number of not recommended dependencies</DDTEXT>
+    <REPTEXT>Not recommended</REPTEXT>
+    <SCRTEXT_S>Not rec.</SCRTEXT_S>
+    <SCRTEXT_M>Not recommended</SCRTEXT_M>
+    <SCRTEXT_L>Not recommended dependencies</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/S4P0/BCVC_ENH</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00058</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/S4P0/BCVC_ENH</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Register Customer Enhancements here and define parameters for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhancements. There are different options to setup, like activation of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>call tracking, render an enhancement active, maintaining parameter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values with different sources etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>All entries of this customizing are collected in a transport and parts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of it can be overwritten in the non-transportable customizing, e.g. the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Enhancements are normally bigger areas where enhancements occur. They</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can be structured in sub-enhancements and below that features. A</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>description should be provided to explain the purpose of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhancementin general.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Enhancements can be assigned to a &quot;Product&quot;. A product is an artifact</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>form the Open FI Enhancement Framework and is part of the BTE (business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transaction events). Customer-Products can be found in TBE24. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignment of a BTE-Product is not mandatory. But if a product is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned, then the (de)activation of that product is considered for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhancement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Enhancements can be set as active or not and the tracking of the calls</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of this enhancement also can be activated or deactivated. The tracked</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>usage is collected in tables /S4P0/T_ENH_EUSE (raw data) and monthly</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cumulated data in table /S4P0/T_ENH_EUSM.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>As sub-element for enhancements there can be free values/parameters</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned. How these parameters are used depends on the enhancement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>itself.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>There are three possible sources how parameter can be customized:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Direct value maintenance: there are Fix Value 1 ... 3 for enhancement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Parameter from STVARV: normally those parameters are maintained for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>report variants. Parameter and Select-Options can be used and makes that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a powerful option to use the same parameters that are already available</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for report variants.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Parameter from XML-Container (not yet implemented)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The cumulation is done via report /S4P0/BC_ENH_USAGE_CUMULAT and needs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to be scheduled as job in each system/client.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>New enhancements and sub-Enhancements should be also in parallel to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customizing registered in the interface class /S4P0/IF_ENH_CONSTANTS and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the coding the attributes of the class have to be used and not the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>literals from customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In the enhancement coding the class /S4P0/CL_ENH_CORE=&gt;GET_INSTANCE( )</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>needs to be included (see example below).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Enhancement: /s4p0/if_enh_sample_constants=&gt;gc_enh_sample</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sub-Enhancement: TOC_PROCESS (/S4P0/IF_ENH_CONSTANTS=&gt;GC_SUBENH_CTS_TOC)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Parameter-Name: EXAMPLE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Value1: 4711</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Description: &quot;Test-Entry&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Class: /S4P0/CL_IM_BC_CTS_REQ_ENH XXX</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Coding of usage:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>  DATA(lr_enh_frw) = /S4P0/cl_enh_core=&gt;get_instance(</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>    iv_enhancement     = /S4P0/IF_ENH_CONSTANTS=&gt;gc_enh_cts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>    iv_sub_enhancement = /S4P0/IF_ENH_CONSTANTS=&gt;gc_sub_enh_cts_toc ).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>  IF lr_enh_frw-&gt;is_enhancement_active( ) = abap_false.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>    RETURN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>  ENDIF.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>  DATA(lt_parameters) = lr_enh_frw-&gt;get_enh_params_all( ).</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/S4P0/BCVC_ENHC</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00016</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/S4P0/BCVC_ENHC</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Overrule settings for registered Customer Enhancements and overrule</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>defined parameters for the enhancements.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beside the activation it is also possible to overrule free</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values/parameters.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>User dependent activation can be achieved with this customizing. You</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>have the possability to enter either a unique user name or a pattern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>using * (e.g. DEVELOP* )</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>So in a system with multiple clients, where new developments shall not</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be active in one client but active in another, that can be achieved with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this customizing. So the transportable setting is active, but the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>non-transportable is client dependent inactive.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If Enhancement: CTS and Sub-Enhancement: TOC_PROCESS needs to be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deactivated quickly, an administrator can change the setting in a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system/client without transport.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

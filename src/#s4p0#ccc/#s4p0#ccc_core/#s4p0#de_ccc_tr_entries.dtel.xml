@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_TR_ENTRIES</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>Number of E071 entries for this object</DDTEXT>
+    <REPTEXT>Transport entries</REPTEXT>
+    <SCRTEXT_S>E071 cnt</SCRTEXT_S>
+    <SCRTEXT_M>Transport entries</SCRTEXT_M>
+    <SCRTEXT_L>Transport object-list entries</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

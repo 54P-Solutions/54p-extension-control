@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/54P-Solutions/54p-extension-control/discussions
+    about: Ask questions and discuss ideas in Discussions.
+  - name: Security vulnerability
+    url: https://github.com/54P-Solutions/54p-extension-control/security/advisories/new
+    about: Report vulnerabilities privately, not as an issue.
+  - name: 54PowerTools
+    url: https://54p.eu
+    about: Commercial extensions and support by 54P Solutions GmbH.

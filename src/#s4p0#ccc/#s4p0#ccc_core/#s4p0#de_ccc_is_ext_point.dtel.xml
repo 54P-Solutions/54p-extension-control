@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_IS_EXT_POINT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Dependency is an extension point (BAdI/ENHS)</DDTEXT>
+    <REPTEXT>Extension point</REPTEXT>
+    <SCRTEXT_S>Ext.point</SCRTEXT_S>
+    <SCRTEXT_M>Extension point</SCRTEXT_M>
+    <SCRTEXT_L>Is extension point</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

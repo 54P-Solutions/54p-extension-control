@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_DEP_DENSITY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_DENSITY</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>Unreleased dependencies per 1000 statements</DDTEXT>
+    <REPTEXT>Dependency density</REPTEXT>
+    <SCRTEXT_S>Dep dens.</SCRTEXT_S>
+    <SCRTEXT_M>Dependency density</SCRTEXT_M>
+    <SCRTEXT_L>Unreleased dependency density</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

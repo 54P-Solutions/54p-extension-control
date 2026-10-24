@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/S4P0/DE_CCC_BLAST_RADIUS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/S4P0/DO_CCC_COUNT</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>Maximum number of peer consumers of a dependency</DDTEXT>
+    <REPTEXT>Blast radius</REPTEXT>
+    <SCRTEXT_S>Blast rad</SCRTEXT_S>
+    <SCRTEXT_M>Blast radius</SCRTEXT_M>
+    <SCRTEXT_L>Max. dependency blast radius</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
